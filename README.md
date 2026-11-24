@@ -15,10 +15,16 @@ The core depends only on `pydantic`; every integration is an optional extra.
 
 ## Installation
 
-The package is not published on PyPI. Install it from a local checkout:
+The package is not published on PyPI. Install it straight from GitHub:
 
 ```bash
-git clone <your-fork-url>
+pip install "agent-utils-sdk @ git+https://github.com/marcusstinghel/agent-utils-sdk.git"
+```
+
+Or from a local checkout, for development:
+
+```bash
+git clone https://github.com/marcusstinghel/agent-utils-sdk.git
 cd agent-utils-sdk
 pip install -e .
 ```
